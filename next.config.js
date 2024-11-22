@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+export const nextConfig = {
   typescript:{
     ignoreBuildErrors: true,
   },
   experimental: {
     serverActions: true,
     serverComponentsExternalPackages: ["mongoose"],
-    esmExternals: true,
+    esmExternals: 'loose',
   },
 
   images: {
