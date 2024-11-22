@@ -6,6 +6,7 @@ const nextConfig = {
   experimental: {
     serverActions: true,
     serverComponentsExternalPackages: ["mongoose"],
+    esmExternals: true,
   },
 
   images: {
