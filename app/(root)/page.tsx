@@ -1,4 +1,4 @@
-'úse client'
+'use client'
 
 import ThreadCard from "@/components/cards/ThreadCard";
 import { fetchThread } from "@/lib/actions/thread.action";
